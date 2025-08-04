@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= product.name %></title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="product-detail">
+    <img src="<%= product.image %>" alt="<%= product.name %>" style="width: 300px;">
+    <h2><%= product.name %></h2>
+    <p>Price: ₹<%= product.price %></p>
+    <button>Add to Cart</button>
+    <br><br>
+    <a href="/">⬅ Back to Store</a>
+  </div>
+</body>
+</html>
